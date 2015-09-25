@@ -1,0 +1,8 @@
+#include <unistd.h>
+
+int main()
+{
+	char username[250];
+	getlogin_r(username, 250);
+	return 0;
+}
